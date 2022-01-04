@@ -78,4 +78,4 @@ jobs:
       #   # to store the CODECOV token.
       #   # The GH secrets are used like ENV variables to pass sensible informatin
       #   # to the flow.
-      #   run: npm run coverage:push -- --token=${{ secrets.CODECOV_TOKEN }}
+        run: npm run coverage:push -- --token=${{ secrets.CODECOV_TOKEN }}
